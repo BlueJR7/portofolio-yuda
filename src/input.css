@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'inter', sans-serif;  
+}
+
+#galleryModal {
+  backdrop-filter: blur(4px);
+}
+
+#galleryModal img {
+  max-width: 45%;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 640px) {
+  #galleryModal img {
+    max-width: 100%;
+  }
+}
+
+/* agar body tidak ikut scroll saat modal aktif */
+body.modal-open {
+  overflow: hidden;
+}
+
+#galleryModal {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+#galleryModal:not(.hidden) {
+  opacity: 1;
+}

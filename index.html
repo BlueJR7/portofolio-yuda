@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body>
+
+<!-- Header Navbar -->
+<header class="bg-primary fixed top-0 left-0 w-full flex items-center z-50 shadow-md">
+  <div class="container mx-auto flex justify-between items-center px-4 py-3">
+    <!-- Logo -->
+    <a href="#home" class="flex items-center space-x-2">
+      <img src="dist/img/logo.png" alt="Logo" class="w-10 h-10">
+      <span class="font-bold text-xl text-light">Putu Widharma</span>
+    </a>
+
+    <!-- Menu Button (Mobile) -->
+    <button id="menu-toggle" class="block lg:hidden text-light focus:outline-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" 
+        viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+
+    <!-- Navbar Links -->
+    <nav id="nav-menu" class="hidden absolute top-full left-0 w-full bg-primary shadow-md lg:shadow-none lg:static lg:block lg:w-auto">
+      <ul class="flex flex-col lg:flex-row lg:space-x-8 p-4 lg:p-0">
+        <li><a href="#beranda" class="block text-white font-medium hover:text-light py-2">Beranda</a></li>
+        <li><a href="#tentang" class="block text-white font-medium hover:text-light py-2">Tentang</a></li>
+        <li><a href="#projek" class="block text-white font-medium hover:text-light py-2">Projek</a></li>
+        <li><a href="#prestasi" class="block text-white font-medium hover:text-light py-2">Prestasi</a></li>
+        <li><a href="#hobi" class="block text-white font-medium hover:text-light py-2">Hobi</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- hero section awal -->
+ <section id="beranda" class="pt-36">
+ <div class="container">
+    <div class="flex flex-wrap">  
+        <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl"> Halo semua, balik lagi dengan saya di sini <span class="block font-bold text-dark text-3xl mt-2 lg:text-4xl">Putu Widharma Yuda Hantana</span></h1>
+            <h2 class="font-medium text-primary text-lg mb-4 lg:text-2xl">Content Creator & <span class="text-dark">Computer System</span></h2>
+            <p class="font-medium text-primary mb-10 leading-relaxed">Selamat datang di Website portofolio saya</p>
+
+            <a href="#kontak" class="text-base font-semibold text-white bg-primary py-4 px-8 rounded-full hover:shadow-lg hover:opacity-60 transition duration-300 ease-in-out">Kontak Saya</a>
+        </div class="w-full self-end px-4 lg:w-1/2">
+       <div class="relative mt-10 lg:mt-9 lg:right-0">
+            <img src="dist/img/yuda.png" alt="Yuda" class="relative z-10 max-w-full mx-auto" />
+            <span class="absolute bottom-0 rightleft-1/2 -translate-x-1/2 -z-10 md:scale-125">
+                <svg width="390" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#0000FF" d="M54.3,-26.5C68.6,-6.6,77.1,21.5,67.1,40.4C57.1,59.3,28.6,69.2,2.7,67.6C-23.2,66.1,-46.4,53.1,-58.6,32.9C-70.7,12.7,-71.9,-14.7,-60.3,-33.1C-48.7,-51.4,-24.3,-60.7,-2.2,-59.4C20,-58.2,40,-46.4,54.3,-26.5Z" transform="translate(100 100) scale(1.3)" />
+                </svg>
+            </span> 
+            </div>
+        </div>
+    </div>
+ </div>
+ </section>
+<!-- hero section akhir -->
+
+<!-- About section awal -->
+ <section id="tentang" class="pt-36 pb-32">
+    <div class="container">
+    <div class="flex flex-wrap">
+        <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3 text-xl">Tentang Saya</h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-3xl">Halo, Perkenalkan</h2>
+            <p class="font-medium textbase text-dark max-w-xl lg:text-lg mb-5">Saya merupakan lulusan Program Studi S1 Sistem Komputer, ITB STIKOM Bali dengan IPK 3,57 (Predikat Sangat Memuaskan). Memiliki minat di bidang pengembangan web dan sistem informasi, serta pengalaman organisasi di bidang Multimedia dan magang di bidang IT Support. lahir di Denpasar, 18 Februari 2003. Saya pribadi yang disiplin, komunikatif, mampu bekerja sama dalam tim</p>
+        </div>
+        <div class="w-full px-4 lg:w-1/2 mb-10">
+            <h3 class="font-bold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Sosial Media</h3>
+            <p class="font-medium text-base text-dark mb-6 lg:text-lg">Saya aktif di berbagai media sosial. Di Instagram, saya berbagi keseharian dan kegiatan. Di YouTube, saya membuat konten gaming dan cinematic vlog sebagai wadah kreativitas visual. TikTok saya berisi video ringan dan santai, sementara di LinkedIn, saya menampilkan sisi profesional dan pengalaman kerja.</p>
+            <div class="flex items-center">
+                <!-- Youtube -->
+                 <a href="https://www.youtube.com/@PutuWidharma18" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                    <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                 </a>
+                 <!-- Instagram -->
+                 <a href="https://www.instagram.com/putu_yuda18/?hl=id" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                    <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+                 </a>
+                 <!-- Tiktok -->
+                 <a href="https://www.tiktok.com/@bluejr187" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                    <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TikTok</title><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                 </a>
+                  <!-- Linkedin -->
+                 <a href="https://www.linkedin.com/in/putu-widharma-938986379/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                    </svg>
+                 </a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+ <!-- Baris 2: Magang & UKM -->
+<div class="container">
+  <div class="flex flex-wrap mb-20">
+    <!-- Magang -->
+    <div class="w-full px-4 mb-10 lg:w-1/2">
+      <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-3xl">Magang di BBPOM di Denpasar</h2>
+      <p class="font-medium text-base text-dark max-w-xl lg:text-lg mb-5">
+        Saya menjalani magang di Balai Besar Pengawas Obat dan Makanan (BBPOM) Denpasar selama 3 bulan.
+        Selama magang, saya berada di bagian IT Support membantu pemeliharaan sistem informasi internal, perbaikan beberapa hardware komputer, serta pembuatan konten publikasi digital instansi.
+      </p>
+        <div class="flex flex-wrap gap-4">
+        <img src="dist/img/magang1.jpg" alt="Magang 1" class="w-1/4 rounded-xl shadow-md cursor-pointer hover:opacity-80 transition" onclick="openModal(this.src)">
+        <img src="dist/img/magang2.jpg" alt="Magang 2" class="w-1/4 rounded-xl shadow-md cursor-pointer hover:opacity-80 transition" onclick="openModal(this.src)">
+        <img src="dist/img/magang3.jpg" alt="Magang 3" class="w-1/4 rounded-xl shadow-md cursor-pointer hover:opacity-80 transition" onclick="openModal(this.src)">
+      </div>
+    </div>
+
+    <!-- UKM Multimedia -->
+    <div class="w-full px-4 lg:w-1/2">
+      <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-3xl">UKM Multimedia ITB STIKOM Bali</h2>
+      <p class="font-medium text-base text-dark max-w-xl lg:text-lg mb-5">
+        Saya aktif di Unit Kegiatan Mahasiswa (UKM) Multimedia sebagai anggota bidang Humas (Hubungan Masyarakat).
+        Berperan dalam pembuatan konten promosi, dokumentasi acara kampus, menjalin komunikasi antara divisi dan pihak eksternal, dan desain visual untuk media sosial UKM.
+      </p>
+      <div class="flex flex-wrap gap-4">
+        <img src="dist/img/ukm1.jpg" alt="UKM 1" class="w-1/4 rounded-xl shadow-md cursor-pointer hover:opacity-80 transition" onclick="openModal(this.src)">
+        <img src="dist/img/ukm2.jpg" alt="UKM 2" class="w-1/4 rounded-xl shadow-md cursor-pointer hover:opacity-80 transition" onclick="openModal(this.src)">
+        <img src="dist/img/ukm3.jpg" alt="UKM 3" class="w-1/4 rounded-xl shadow-md cursor-pointer hover:opacity-80 transition" onclick="openModal(this.src)">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Gambar -->
+<div id="imageModal" class="fixed inset-0 bg-black/80 hidden justify-center items-center z-50">
+  <span class="absolute top-5 right-7 text-white text-3xl font-bold cursor-pointer" onclick="closeModal()">&times;</span>
+  <img id="modalImage" src="" class="max-w-[90%] max-h-[80%] rounded-lg shadow-lg object-contain">
+</div>
+
+
+    <!-- Baris 3: Riwayat Pendidikan -->
+     <div class="container">
+    <div class="flex flex-wrap">
+      <div class="w-full px-4 mb-10 lg:w-1/2">
+        <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-3xl">Riwayat Pendidikan Saya</h2>
+        <p class="font-medium text-base text-dark max-w-xl lg:text-lg mb-5">
+         Saya menempuh pendidikan di berbagai daerah di Indonesia. Perjalanan pendidikan saya dimulai dari taman kanak-kanak di Sumatra Utara, kemudian berpindah ke beberapa sekolah dasar di Sumatra Utara dan Pekanbaru. Setelah itu, saya melanjutkan pendidikan di tingkat menengah pertama di Pekanbaru dan Gianyar, lalu di tingkat menengah atas di Bangli. Terakhir, saya menempuh pendidikan kuliah di Denpasar dalam jurusan sistem komputer.
+        </p>
+      </div>
+
+      <div class="w-full px-4 lg:w-1/2">
+        <ul class="font-medium text-base text-dark leading-relaxed lg:text-lg">
+          <li>🎓 <strong>TK Bina Darma, Sumatra utara</strong> (2008–2009)</li>
+          <li>🏫 <strong>SD Santa Maria 2, Pekanbaru</strong> (2009–2010)</li>
+          <li>🏫 <strong>SD Muara Tiga, Sumatra Utara</strong> (2010–2011)</li>
+          <li>🏫 <strong>SD Bina Darma, Sumatra Utara</strong> (2011–2013)</li>
+          <li>🏫 <strong>SD Negeri 158, Pekanbaru</strong> (2013–2015)</li>
+          <li>🏫 <strong>SMP Dharma Loka, Pekanbaru</strong> (2015–2017)</li>
+          <li>🏫 <strong>SMP Negeri 3, Gianyar</strong> (2017–2018)</li>
+          <li>🏫 <strong>SMA Negeri 2, Bangli</strong> (2018–2021)</li>
+          <li>💻 <strong>ITB STIKOM Bali</strong> (2021–2025)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ </section>
+<!-- About section akhir -->
+
+<!-- Projek awal -->
+<section id="projek" class="pt-36 pb-16 bg-secondary">
+  <div class="container">
+    <div class="w-full px-4">
+      <div class="max-w-xl mx-auto text-center mb-16">
+        <h4 class="font-bold text-lg text-primary mb-2">PROJEK</h4>
+        <h2 class="font-semibold text-dark text-3xl mb-4">Projek Saya</h2>
+        <p class="font-medium text-md text-dark">
+          Berikut beberapa projek yang telah saya kerjakan, baik secara individu maupun dalam tim.
+        </p>
+      </div>
+    </div>
+
+    <div class="w-full px-4 flex flex-wrap justify-center">
+      <!-- Item 1 -->
+      <div class="mb-12 p-4 md:w-1/2">
+        <div class="rounded-md shadow-md overflow-hidden cursor-pointer group" onclick="openPreview(this)">
+          <img src="dist/img/web.png" alt="Website Lapangan Adi Futsal Penatih" class="w-full transition-transform duration-300 group-hover:scale-105"/>
+        </div>
+        <h3 class="font-semibold text-dark text-xl mt-5 mb-3">Website Lapangan Adi Futsal Penatih</h3>
+        <p class="font-medium text-base text-dark">
+          Sistem pemesanan lapangan futsal berbasis web dengan fitur login, multi-auth, dan manajemen data admin.
+        </p>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="mb-12 p-4 md:w-1/2">
+        <div class="rounded-md shadow-md overflow-hidden cursor-pointer group" onclick="openPreview(this)">
+          <img src="dist/img/bpom.png" alt="Website Hasil Pemeriksaan BBPOM Denpasar" class="w-full transition-transform duration-300 group-hover:scale-105"/>
+        </div>
+        <h3 class="font-semibold text-dark text-xl mt-5 mb-3">Website Hasil Pemeriksaan BBPOM di Denpasar</h3>
+        <p class="font-medium text-base text-dark">
+          Website berbasis sistem informasi untuk menampilkan hasil pemeriksaan produk dari BBPOM Denpasar.
+        </p>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="mb-12 p-4 md:w-1/2">
+        <div class="rounded-md shadow-md overflow-hidden cursor-pointer group" onclick="openPreview(this)">
+          <img src="dist/img/figma.png" alt="Figma Aplikasi Android Lapangan Futsal" class="w-full transition-transform duration-300 group-hover:scale-105"/>
+        </div>
+        <h3 class="font-semibold text-dark text-xl mt-5 mb-3">Figma Aplikasi Android Lapangan Futsal</h3>
+        <p class="font-medium text-base text-dark">
+          Desain UI/UX aplikasi Android untuk pemesanan lapangan futsal dengan konsep modern dan responsif.
+        </p>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="mb-12 p-4 md:w-1/2">
+        <div class="rounded-md shadow-md overflow-hidden cursor-pointer group" onclick="openPreview(this)">
+          <img src="dist/img/figma.png" alt="Figma Aplikasi Android Info Wisata" class="w-full transition-transform duration-300 group-hover:scale-105"/>
+        </div>
+        <h3 class="font-semibold text-dark text-xl mt-5 mb-3">Figma Aplikasi Android Info Wisata</h3>
+        <p class="font-medium text-base text-dark">
+          Prototype aplikasi informasi wisata di Bali yang menampilkan lokasi, deskripsi, dan galeri destinasi.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Gambar Preview (Zoom kecil) -->
+  <div id="previewOverlay" class="fixed inset-0 bg-black/70 hidden items-center justify-center z-50 p-4">
+    <img id="previewImage" src="" class="max-w-[85%] max-h-[75%] rounded-lg shadow-lg object-contain transition-transform duration-300 scale-100 md:scale-105">
+  </div>
+</section>
+
+<!-- section prestasi awal-->
+ <section id="prestasi" class="pt-36 pb-32 bg-light">
+    <div class="container">
+      <div class="w-full px-4">
+         <div class="max-w-xl mx-auto text-center mb-16">
+        <h4 class="font-bold text-lg text-primary mb-2">PRESTASI</h4>
+        <h2 class="font-semibold text-dark text-3xl mb-4">Prestasi Saya</h2>
+        <p class="font-medium text-md text-dark">
+          Berikut adalah prestasi yang telah saya dapatkan, saya sangat senang dengan sepakbola mau itu di lapangan atau game dan saya berhasil memenangkan Turnamen EA SPORT FC 25 yang di selenggarakan oleh footfocus.id di bali Minggu, 14 September 2025.
+        </p>
+      </div>
+      </div>
+    </div>
+
+     <!-- Foto-foto prestasi -->
+    <div class="w-full px-4">
+      <div class="flex flex-wrap justify-center gap-6">
+        <!-- Foto 1 -->
+        <div class="w-full sm:w-1/4">
+          <img
+            src="dist/img/juara1.jpg"
+            alt="Turnamen FC 25 - Foto 1"
+            class="w-full h-auto rounded-lg shadow-lg object-contain"
+          />
+        </div>
+        <!-- Foto 2 -->
+        <div class="w-full sm:w-1/4">
+          <img
+            src="dist/img/piala.jpg"
+            alt="Turnamen FC 25 - Foto 2"
+            class="w-full h-auto rounded-lg shadow-lg object-contain"
+          />
+        </div>
+         <div class="w-full sm:w-1/4">
+          <img
+            src="dist/img/juara2.jpg"
+            alt="Turnamen FC 25 - Foto 2"
+            class="w-full h-auto rounded-lg shadow-lg object-contain"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+<!-- section prestasi akhir -->
+ 
+<!-- section minat awal -->
+ <section id="hobi" class="pt-36 pb-32 bg-secondary">
+  <div class="container">
+    <div calss="w-full px-4">
+       <div class="max-w-xl mx-auto text-center mb-16">
+        <h4 class="font-bold text-lg text-primary mb-2">Hobi</h4>
+        <h2 class="font-semibold text-dark text-3xl mb-4">Hobi Saya</h2>
+        <p class="font-medium text-md text-dark">
+          Berikut beberapa hobi yang telah saya minati, baik secara individu maupun dalam tim.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex flex-wrap">
+      <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+        <div class="bg-white rounded-xl shadow=lg overflow-hidden mb-10">
+          <img src="dist/img/minsoc1.jpg" alt="soccer" class="w-full">
+          <div class="py-8 px-6">
+            <h3 class="mb-3 font-semibold text-xl text-dark truncate">SepakBola</h3>
+            <p class="font-medium text-base text-dark mb-6">Sepak bola bagi saya bukan sekadar olahraga, tapi sarana belajar kerja sama, strategi, dan semangat juang. Dari setiap pertandingan mini soccer, saya belajar arti sportivitas dan pentingnya komunikasi dalam tim.</p>
+           <button onclick="openGallery('sepakbola')" class="font-medium text-sm text-secondary bg-primary py-2 px-4 rounded-lg hover:opacity-80 transition">Lihat Galeri</button>
+          </div>
+        </div>
+      </div>
+      <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+        <div class="bg-white rounded-xl shadow=lg overflow-hidden mb-10">
+          <img src="dist/img/futsal1.jpg" alt="soccer" class="w-full">
+          <div class="py-8 px-6">
+            <h3 class="mb-3 font-semibold text-xl text-dark truncate">Futsal</h3>
+            <p class="font-medium text-base text-dark mb-6">Futsal menantang dengan tempo cepat dan refleks tajam. Saya menyukainya karena melatih kelincahan, dan pengambilan keputusan cepat. Apalagi lapangan futsal mudah dicari dan terjangkau.</p>
+            <button onclick="openGallery('futsal')" class="font-medium text-sm text-secondary bg-primary py-2 px-4 rounded-lg hover:opacity-80 transition">Lihat Galeri</button>
+          </div>
+        </div>
+      </div>
+      <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+        <div class="bg-white rounded-xl shadow=lg overflow-hidden mb-10">
+          <img src="dist/img/agung.jpg" alt="soccer" class="w-full">
+          <div class="py-8 px-6">
+            <h3 class="mb-3 font-semibold text-xl text-dark truncate">Mendaki</h3>
+            <p class="font-medium text-base text-dark mb-6">Mendaki gunung menjadi cara saya menenangkan pikiran dan menikmati alam. Setiap pendakian mengajarkan kesabaran, ketahanan, dan rasa syukur saat mencapai puncak.</p>
+           <button onclick="openGallery('mendaki')" class="font-medium text-sm text-secondary bg-primary py-2 px-4 rounded-lg hover:opacity-80 transition">Lihat Galeri</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+<!-- section minat akhir -->
+
+<!-- POPUP GALERI -->
+<div id="galleryModal" class="fixed inset-0 bg-black bg-opacity-70 hidden z-50 flex justify-center items-center p-4 overflow-y-auto">
+  <div class="bg-white rounded-xl shadow-2xl w-full max-w-[95%] sm:max-w-3xl relative flex flex-col my-auto max-h-[90vh]">
+    
+    <!-- Header (tetap di atas) -->
+    <div class=" top-0 bg-white z-10 border-b p-4 flex justify-between items-center">
+      <h3 id="galleryTitle" class="font-semibold text-lg text-dark">Galeri</h3>
+      <button onclick="closeGallery()" class="text-dark hover:text-primary text-2xl font-bold">&times;</button>
+    </div>
+
+    <!-- Isi foto yang bisa di-scroll -->
+    <div id="galleryContent" class="p-6 overflow-y-auto flex flex-wrap gap-4 justify-center">
+      <!-- Foto-foto akan ditampilkan via JS -->
+    </div>
+
+  </div>
+</div>
+
+<!-- kontak section awal -->
+ <section id="kontak" class="pt-36 pb-32">
+  <div class="container">
+    <div class="w-full px-4">
+       <div class="max-w-xl mx-auto text-center mb-16">
+        <h4 class="font-bold text-lg text-primary mb-2">Kontak</h4>
+        <h2 class="font-semibold text-dark text-3xl mb-4">Hubungi Saya</h2>
+        <p class="font-medium text-md text-dark">
+          Berikut beberapa projek yang telah saya kerjakan, baik secara individu maupun dalam tim.
+        </p>
+      </div>
+
+    <form id="contactForm" onsubmit="sendToWhatsApp(event)">
+    <div class="w-full lg:w-2/3 lg:mx-auto">
+      <div class="w-full px-4 mb-8">
+        <label for="name" class="text-base text-primary font-bold">Nama</label>
+        <input type="text" id="name" class="w-full bg-light text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+      </div>
+      <div class="w-full px-4 mb-8">
+        <label for="email" class="text-base text-primary font-bold">Email</label>
+        <input type="text" id="email" class="w-full bg-light text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+      </div>
+      <div class="w-full px-4 mb-8">
+        <label for="message" class="text-base text-primary font-bold">Pesan</label>
+        <textarea type="text" id="message" class="w-full bg-light text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+      </div>
+      <div class="w-full px-4">
+        <button class="text-base font-semibold text-secondary bg-primary py-3 px-8 rounded-full w-full hover:opacity-70 hover:shadow-lg transition duration-500">Kirim</button>
+      </div>
+      </div>
+      </form>
+    </div>
+  </div>
+ </section>
+<!-- kontak section Akhir -->
+
+<!-- footer awal -->
+ <footer class="bg-primary pt-24 pb-12">
+  <div class="container">
+    <div class="flex flex-wrap">
+      <div class="w-full px-4 mb-12 text-secondary font-medium md:w-1/3">
+        <h2 class="font-bold text-4xl text-white mb-5">Putu Widharma</h2>
+        <h3 class="font-bold text-2xl mb-2">Alamat Saya</h3>
+        <p>widarmayuda03@gmail.com</p>
+        <p>Demade Penatih Residence B1, Gg.Trijata ,Penatih Dangin Puri, Kec. Denpasar Tim.</p>
+        <p>Kota Denpasar, Bali 80238</p>
+      </div>
+      <div class="w-fu;; px-4 mb-12 md:w-1/3">
+        <h3 class="font-semibold text-xl text-white mb-5">Kategori Tulisan</h3>
+        <ul class="text-secondary">
+          <li>
+          <a href="" class="inline-block text-base hover:text-light mb-3">Programming</a>
+          </li>
+          <li>
+          <a href="" class="inline-block text-base hover:text-light mb-3">Web Developer</a>
+          </li>
+          <li>
+          <a href="" class="inline-block text-base hover:text-light mb-3">Multimedia</a>
+          </li>
+          <li>
+          <a href="" class="inline-block text-base hover:text-light mb-3">SepakBola</a>
+          </li>
+          <li>
+          <a href="" class="inline-block text-base hover:text-light mb-3">Content Creator</a>
+          </li>
+        </ul>
+      </div>
+      <div class="w-fu;; px-4 mb-12 md:w-1/3">
+        <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+        <ul class="text-secondary">
+          <li>
+          <a href="#beranda" class="inline-block text-base hover:text-light mb-3">Beranda</a>
+          </li>
+          <li>
+          <a href="#tentang" class="inline-block text-base hover:text-light mb-3">Tentang</a>
+          </li>
+          <li>
+          <a href="#projek" class="inline-block text-base hover:text-light mb-3">Projek</a>
+          </li>
+          <li>
+          <a href="#prestasi" class="inline-block text-base hover:text-light mb-3">Prestasi</a>
+          </li>
+          <li>
+          <a href="#hobi" class="inline-block text-base hover:text-light mb-3">Hobi</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="w-full pt-10 border-t border-secondary">
+       <div class="flex items-center justify-center mb-5">
+                <!-- Youtube -->
+                 <a href="https://www.youtube.com/@PutuWidharma18" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center bg-secondary border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                    <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                 </a>
+                 <!-- Instagram -->
+                 <a href="https://www.instagram.com/putu_yuda18/?hl=id" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center bg-secondary border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                    <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+                 </a>
+                 <!-- Tiktok -->
+                 <a href="https://www.tiktok.com/@bluejr187" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center bg-secondary border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                    <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TikTok</title><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                 </a>
+                  <!-- Linkedin -->
+                 <a href="https://www.linkedin.com/in/putu-widharma-938986379/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center bg-secondary border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                    </svg>
+                 </a>
+            </div>
+            <p class="font-medium text-sm text-light text-center font-bold">Putu Widharma Yuda Hantana - Copyright 2025</p>
+    </div>
+  </div>
+ </footer>
+<!-- footer akhir -->
+
+<script>
+  document.querySelectorAll('a[href^="#beranda"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+  document.querySelectorAll('a[href^="#tentang"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+  document.querySelectorAll('a[href^="#projek"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+  document.querySelectorAll('a[href^="#prestasi"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+  document.querySelectorAll('a[href^="#hobi"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+  document.querySelectorAll('a[href^="#kontak"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+
+  // Toggle menu (untuk mobile)
+  const menuToggle = document.getElementById('menu-toggle');
+  const navMenu = document.getElementById('nav-menu');
+  menuToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('hidden');
+  });
+
+   function openModal(src) {
+    document.getElementById('imageModal').classList.remove('hidden');
+    document.getElementById('modalImage').src = src;
+    document.body.style.overflow = 'hidden'; // mencegah scroll saat modal terbuka
+  }
+
+  function closeModal() {
+    document.getElementById('imageModal').classList.add('hidden');
+    document.body.style.overflow = 'auto';
+  }
+
+  // Tutup modal jika klik di luar gambar
+  document.getElementById('imageModal').addEventListener('click', function(e) {
+    if (e.target === this) closeModal();
+  });
+
+    function openPreview(element) {
+    const imgSrc = element.querySelector('img').src;
+    document.getElementById('previewImage').src = imgSrc;
+    document.getElementById('previewOverlay').classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+  }
+
+  document.getElementById('previewOverlay').addEventListener('click', function() {
+    this.classList.add('hidden');
+    document.body.style.overflow = 'auto';
+  });
+
+   const galleries = {
+    sepakbola: {
+      title: "Galeri Sepak Bola",
+      images: [
+        "dist/img/minsoc1.jpg",
+        "dist/img/minsoc2.jpg",
+        "dist/img/minsoc3.jpg"
+      ]
+    },
+    futsal: {
+      title: "Galeri Futsal",
+      images: [
+        "dist/img/futsal1.jpg",
+        "dist/img/futsal2.jpg",
+        "dist/img/futsal3.jpg"
+      ]
+    },
+    mendaki: {
+      title: "Galeri Mendaki",
+      images: [
+        "dist/img/agung.jpg",
+        "dist/img/batukaru.jpg",
+        "dist/img/abang.jpg"
+      ]
+    }
+  };
+function openGallery(type) {
+  const modal = document.getElementById('galleryModal');
+  const title = document.getElementById('galleryTitle');
+  const content = document.getElementById('galleryContent');
+
+  title.textContent = galleries[type].title;
+  content.innerHTML = galleries[type].images
+    .map(img => `<img src="${img}" alt="${type}" />`)
+    .join('');
+
+  document.body.classList.add('modal-open');
+  modal.classList.remove('hidden');
+}
+
+function closeGallery() {
+  const modal = document.getElementById('galleryModal');
+  document.body.classList.remove('modal-open');
+  modal.classList.add('hidden');
+}
+
+ function sendToWhatsApp(event) {
+    event.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    const phoneNumber = "6285847825568"; // 0 diganti 62 untuk format internasional Indonesia
+    const text = `Halo, saya ${name} (%20${email}%20)%0A%0A${message}`;
+
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${text}`;
+    window.open(whatsappURL, "_blank");
+  }
+</script>
+</body>
+</html>
